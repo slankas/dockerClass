@@ -12,3 +12,5 @@ COPY spam.csv /myapp/spam.csv
 WORKDIR /myapp
 ENTRYPOINT python app.py
 
+EXPOSE 5000
+
